@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include<string.h>
 int main()
 {
-char str1[100],str2[100],a[200];
+char str1[100],str2[100];
 char combined[200];
 int i, j, len=0,op,equal=1;
-char c;
     printf("Enter the first string: ");
     scanf(" %s", str1);
     printf("Enter the second string: ");
